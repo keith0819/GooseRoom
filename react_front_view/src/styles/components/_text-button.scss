@@ -1,0 +1,25 @@
+// TextButton
+.button-wrapper{
+  width: 90%;
+  display: flex;
+  margin: 25px auto 0; 
+  .text-btn {
+    background-color: transparent;
+    flex: 1;
+    height: 40px;
+    margin: 0 2%;
+    border: 1px solid $light-gray;
+    border-radius: 5px;
+    text-align: center;
+    .text-btn-link {
+      display: block;
+      line-height: 30px;
+    }
+  }
+}
+
+@media all and (min-width: 768px) {
+  .text-btn:hover { 
+    background-color: #eee;
+  }
+}

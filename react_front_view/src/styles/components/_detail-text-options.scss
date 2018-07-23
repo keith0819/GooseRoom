@@ -1,0 +1,17 @@
+.detail-text-list {
+  margin: 30px 25px;
+  dl {
+    display: flex;
+  }
+  dt {
+    font-size: 1.5rem;
+  }
+  dd {
+    font-size: 1.5rem;
+    margin-left: 10px;
+    word-break: break-all;
+  }
+}
+.detail-text-list li {
+  margin-bottom: 15px;
+}

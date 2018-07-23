@@ -1,0 +1,36 @@
+.header-detail {
+  align-items: center;
+  display: flex;
+  #nav-drawer {
+    position: static;
+    flex: 1;
+    text-align: right;  
+    margin-right: 15px;
+  }
+}
+.header-detail .logo {
+  text-align: left;
+  margin-left: 15px;
+  flex: 1;
+}
+
+.header-detail-info {
+  flex: 2;
+  text-align: center;
+  .type {
+    display: inline-block;
+    font-size: 1.6rem;
+  }
+  .size {
+    background-color: lightblue;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    font-size: 1.4rem;
+    margin: 0 0 5px 10px;
+    padding: 4px 10px 7px;
+  }
+  .day {
+    font-size: 1.2rem;
+  }
+}

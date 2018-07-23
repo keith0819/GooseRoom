@@ -1,0 +1,21 @@
+// ImageCard
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  list-style-type: none;
+  margin-bottom: 20px; // delete
+  .image-card-wrapper {
+    width: 28%;   
+    border: 1px solid $light-gray;
+    .image-card {
+      width: 100%;     
+    }  
+    .box-text {
+      width: 100%;
+      font-size: 1.4rem;
+      padding: 10px 0;
+      text-align: center;
+    }  
+  }
+}

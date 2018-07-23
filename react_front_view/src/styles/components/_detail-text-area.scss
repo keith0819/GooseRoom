@@ -1,0 +1,25 @@
+.detail-text-area {
+  padding: 0 15px;
+  .title {
+    margin-bottom: 3px;
+    padding-left: 20px;
+    position: relative;
+    &:before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      display: block;
+      width: 15px;
+      height: 15px;
+      background: lightblue;
+    }
+  }
+  .text-area {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    line-height: 1.2;
+  }
+}

@@ -1,0 +1,23 @@
+.sticky-footer {
+  position: sticky;
+  background-color: #fff;
+  bottom: 0;
+  display: flex;
+  border-top: 1px solid #ccc;
+  padding: 10px 20px;
+  align-items: center;
+  .price {
+    font-size: 2rem;
+    flex: 1;
+    margin-left: 30px;
+  }
+  .button {
+    font-size: 1.6rem;
+    flex: 1;
+    padding: 10px;
+    background-color: lightblue;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+}

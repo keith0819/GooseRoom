@@ -1,0 +1,19 @@
+// TopButton
+.arrow:hover {
+  cursor: pointer;
+}
+.arrow::before,
+.arrow::after {
+  position: absolute;
+  top: -30px;
+  right: 15px;
+  content: "";
+ }
+.arrow::before {
+  width: 15px;
+  height: 15px;
+  border-top: 3px solid $light-gray;
+  border-right: 3px solid $light-gray;
+  -webkit-transform: rotate(315deg);
+  transform: rotate(315deg);
+}

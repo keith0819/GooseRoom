@@ -1,0 +1,40 @@
+.top-image-slider {
+  margin-bottom: 50px;
+}
+.box-card {
+  border: 1px solid #ccc;  
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 10px;
+}
+.slick-slide {
+  margin-right:10px;
+}
+
+/* the parent */
+.slick-list {
+  // margin-right:-10px;
+  height: 100px;
+}
+
+.slick-arrow {
+  display: none !important;
+}
+
+.item {
+  height: 60px;
+}
+
+.slick-slide img {
+  height: 100%;
+}
+
+
+@media all and (min-width: 768px) { 
+  .slick-list {
+    height: 170px;
+  }
+  .item {
+    height: 130px;
+  }
+}
