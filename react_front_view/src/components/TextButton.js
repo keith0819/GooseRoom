@@ -7,12 +7,19 @@ class TextButton extends React.Component {
     this.state = {
       type: ""
     }
+    this.setState({
+      type : this.state.type
+    });
     this.handleClick = this.handleClick.bind(this)
   }
 
   handleClick(category) {
     this.setState({ type: category })
     console.log(this.state)
+  }
+
+  getType(){
+    return this.state.type
   }
 
   render() {

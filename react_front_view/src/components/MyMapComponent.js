@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+// import axios from 'axios';
 import { withRouter } from 'react-router'
 import { compose, withProps,withHandlers } from "recompose"
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
@@ -8,10 +9,20 @@ class MyMapComponent extends Component {
     super(props)
     this.state = {
       makers: [],
+      posts: []
     }
   }
 
   componentDidMount() {
+    axios.get('http://localhost:3000/posts')
+    .then((response) => {
+        console.log(response)
+        this.setState({posts: response.data})
+    })
+    .catch((data) => {
+        console.log(data)
+    })
+    
     this.setState({
       markers: [
         {lat: 49.283, lng: -123.120},
@@ -30,6 +41,12 @@ class MyMapComponent extends Component {
       }),
       withHandlers({
         onMarkerClick: () => () => {
+          // {this.state.posts.map((data) => {
+          //   return(
+          //     <MyMapComponent data={ data } key={ data.id }/>
+          //   )
+          // })}
+          // this.props.history.push(`/detail/${this.props.data.id}`)
           this.props.history.push('/detail')
         },
       }),

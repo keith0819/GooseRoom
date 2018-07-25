@@ -1,0 +1,94 @@
+.post-form-wrapper {
+  margin-bottom: 30px;
+}
+
+.post-form-step {
+  margin-bottom: 25px;
+  text-align: center;
+  width: 100%;
+  padding: 0 20px;
+  p {
+    background-color: #ccc;
+    padding: 15px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+}
+
+.post-form {
+  padding: 0 20px;
+}
+
+.post-label {
+  display: block;
+  margin-bottom: 25px;
+}
+
+.post-input {
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 30px;
+  margin-top: 5px;
+  padding: 0 10px;
+  font-size: 1.6rem;
+  &:focus {
+    outline: none;
+  }
+}
+
+.post-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  border-radius: 0; 
+  display: block;
+  font-size: 1.4rem;
+  margin-top: 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 5px;
+  height: 30px;
+  text-align: center;
+  &:focus {
+    outline: none;
+  }
+}
+.select-wrapper {
+  position: relative;
+  &::before, &::after {
+    display: block;
+    position: absolute;
+    top: 9px;
+    right: 15px;
+    z-index: 100;
+    pointer-events: none;
+    content: "";
+  }
+  &:before {
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);  
+  }
+}
+
+
+.post-form-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: #fff;
+  display: block;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  background-color: lightblue;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+}
+
