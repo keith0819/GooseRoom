@@ -46,19 +46,19 @@ class TopImageSlider extends React.Component {
       <div className="top-image-slider">
         <Slider {...settings}>
           <div className="item">
-          <img width="100px" src={require('../images/one.jpg')} className="image-card" />
+          <img src={require('../images/one.jpg')} className="image-card" />
           <p className="box-card">Vancouver</p>
           </div>
           <div className="item">
-          <img src={require('../images/one.jpg')} className="image-card" />
+          <img src={require('../images/burnavy.jpg')} className="image-card" />
           <p className="box-card">Burnavy</p>
           </div>
           <div className="item">
-          <img src={require('../images/one.jpg')} className="image-card" />
+          <img src={require('../images/richmond.jpg')} className="image-card" />
           <p className="box-card">Richmond</p>
           </div>
           <div className="item">
-          <img src={require('../images/one.jpg')} className="image-card" />
+          <img src={require('../images/surrey.jpg')} className="image-card" />
           <p className="box-card">Surrey</p>
           </div>
           <div className="item">

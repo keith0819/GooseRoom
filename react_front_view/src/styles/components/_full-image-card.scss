@@ -36,7 +36,9 @@
       font-size: 1.2rem;
       border-radius: 5px;
       color: #fff;
-      margin-right: 5px; 
+      margin-right: 5px;
+      min-width: 65px;
+      text-align: center; 
     }
     .fee {
       font-size: 1.8rem;
@@ -50,6 +52,8 @@
       border-radius: 5px;
       padding: 5px;
       font-size: 1.2rem;
+      min-width: 65px;
+      text-align: center;
     }
   }
   .right {

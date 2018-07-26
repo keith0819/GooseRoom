@@ -8,16 +8,20 @@ class ImageSlider extends React.Component {
     
     const images = [
       {
-        original: require('../images/one.jpg'),
-        thumbnail: require('../images/one.jpg')
+        original: require('../images/room1.jpg'),
+        thumbnail: require('../images/room1.jpg')
       },
       {
-        original: require('../images/one.jpg'),
-        thumbnail: require('../images/one.jpg')
+        original: require('../images/room2.jpg'),
+        thumbnail: require('../images/room2.jpg')
       },
       {
-        original: require('../images/one.jpg'),
-        thumbnail: require('../images/one.jpg')
+        original: require('../images/room3.jpg'),
+        thumbnail: require('../images/room3.jpg')
+      },
+      {
+        original: require('../images/room4.jpg'),
+        thumbnail: require('../images/room4.jpg')
       }
     ]
  

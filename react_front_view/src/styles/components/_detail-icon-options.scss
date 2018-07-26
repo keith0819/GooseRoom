@@ -2,9 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   margin: 30px 15px;
+  justify-content: center;
   li {
     margin-bottom: 5px;
-    width: 42%;
+    width: 50%;
     padding: 0 10px;
     // border-right: 1px dotted #ccc;
     // border-bottom: 1px dotted #ccc;

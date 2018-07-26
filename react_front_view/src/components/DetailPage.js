@@ -15,8 +15,8 @@ const DetailPage = () => (
     <ImageSlider />
     <DetailIconOptions />
     <DetailTextOptions />
-    <DetailTextArea />
-    <DetailTextArea />
+    <DetailTextArea title="House Rules" />
+    <DetailTextArea title="Comments" />
     <MapDetailArea />
     <Footer />
     <StickyFooter />

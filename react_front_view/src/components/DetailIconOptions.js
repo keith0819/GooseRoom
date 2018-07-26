@@ -5,12 +5,12 @@ const DetailIconOptions = () => {
   
   let listIcons = [
     {
-      image: require('../images/wifi.png'),
+      image: require('../images/hydro.png'),
       option: "Hydro:",
       detail: "Hydro"
     },
     {
-      image: require('../images/dog.png'),
+      image: require('../images/no-smorking.png'),
       option: "Smoking:",
       detail: "No Drug No Smoking"
     },
@@ -40,7 +40,7 @@ const DetailIconOptions = () => {
       detail: "share each $2"
     },
     {
-      image: require('../images/bed.png'),
+      image: require('../images/floor.png'),
       option: "Floor:",
       detail: "Basement"
     }
